@@ -16,7 +16,6 @@ public class RazorpayPackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new RazorpayModule(reactContext));
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
     }
